@@ -1,4 +1,26 @@
-
-component_names = {
-    ""
+components = {
+    "building_entry_sconce": "Building Entry Sconce",
+    "ceiling_fan_integrated_light_kit": "Ceiling Fan w/ Integral Light Kit",
+    "damp_rated_exit_sign_universal_double_sided": "Damp-Rated Exit Sign - Universal Double Sided",
+    "damp_rated_exit_sign_universal_single_sided": "Damp-Rated Exit Sign - Universal Single Sided",
+    "decorative_pendant": "Decorative Pendant",
+    "elevator_threshold_light": "Elevator Threshold Light",
+    "emergency_light_damp_rated": "Emergency Light - Damp Rated",
+    "emergency_light_wet_rated_1": "Emergency Light - Wet Rated",
+    "emergency_light_wet_rated_2": "Emergency Light - Wet Rated",
+    "garage_general_lighting_led_puck": "Garage General Lighting LED Puck",
+    "garage_pole_light_double_head": "Garage Pole Light - Double Head - Wet Rated",
+    "general_lighting_led_puck": "General Lighting LED Puck",
+    "general_recessed_can_lighting_1": "General Recessed Can Lighting",
+    "general_recessed_can_lighting_2": "General Recessed Can Lighting",
+    "general_recessed_can_lighting_3": "General Recessed Can Lighting",
+    "general_recessed_can_lighting_4": "General Recessed Can Lighting",
+    "general_service_mechanical_room_lighting": "General Service/Mechanical Room Lighting",
+    "led_puck": "LED Puck",
+    "led_puck_with_battery_backup_accessory": "LED Puck w/ Battery Backup Accessory",
+    "led_tape_light": "LED Tape Light",
+    "lighted_mirror": "Lighted Mirror",
+    "parking_garage_luminaire": "Parking Garage Luminaire - Wet Rated",
+    "unit_entry_light": "Unit Entry Light",
+    "wet_rated_exit_sign_universal_single_sided": "Wet Rated Exit Sign Universal Single Or Double Sided",
 }

@@ -3,6 +3,7 @@ import numpy as np
 import os
 import logging
 from collections import defaultdict
+from data.component_names import components  # This is the dictionary you've provided
 
 # Configure logging
 logging.basicConfig(
@@ -44,6 +45,7 @@ def non_max_suppression(locations, threshold_distance=10):
     points = list(zip(locations[1], locations[0]))
 
     # Sort points based on their score (descending)
+    # Points are sorted based on their score value.
     points = sorted(points, key=lambda p: (p[0], p[1]))
 
     suppressed = []
@@ -89,8 +91,16 @@ def process_icon(icon_file):
         logging.warning(f"Failed to load icon image from {icon_path}")
         return None
 
-    # Use the entire file name (without the extension) as the key
-    component_name = os.path.splitext(icon_file)[0]
+    # Use the file name (without extension) to map to the component dictionary
+    component_key = os.path.splitext(icon_file)[0]
+
+    # Map the icon file name to the corresponding component name using the components dictionary
+    if component_key in components:
+        component_name = components[component_key]
+    else:
+        logging.warning(f"No matching component name found for {component_key}")
+        component_name = component_key  # Use the file name as a fallback
+
     count = 0
 
     # Perform sliding window and pyramid matching
