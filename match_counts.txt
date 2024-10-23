@@ -1,0 +1,4 @@
+Component: general_lighting_led_puck, Count: 31
+Component: general_recessed_can_lighting_2, Count: 6
+Component: general_recessed_can_lighting_4, Count: 10
+Component: led_tape_light, Count: 2
