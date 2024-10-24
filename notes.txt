@@ -1,2 +1,0 @@
--set up project
-- simply using pdf2image and tesseract doesnt work
